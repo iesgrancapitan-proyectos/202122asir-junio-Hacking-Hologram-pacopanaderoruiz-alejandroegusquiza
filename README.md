@@ -102,3 +102,7 @@ Este módulo profesional complementa la formación establecida para el resto de 
 | RA4. Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados. _(Manual de funcionamiento,  mantenimiento/actualizaciones  del producto,  futuras mejoras) _ | 10% |
 
 [:arrow_up:](#módulo-proyecto-integrado-del-ies-gran-capitán)
+
+
+# 1. Descripción del proyecto
+Este proyecto tiene como objetivo el uso de un proyector holograma sin necesidad de su aplicación móvil complementaria. Buscaremos las posibles vulnerabilidades, servicios, puertos, protocolos, etc, que tenga el proyector a través de análisis forenses, tanto de las aplicaciones como del dispositivo mismo. Una vez realizado esto y conociendo como se envían los paquetes del cambio de vídeo, crearemos un script donde podamos elegir el vídeo que queramos reproducir sin necesidad de ninguna aplicación.
