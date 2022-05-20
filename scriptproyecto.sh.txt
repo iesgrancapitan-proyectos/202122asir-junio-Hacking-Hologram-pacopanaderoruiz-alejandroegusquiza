@@ -1,0 +1,72 @@
+#!/bin/bash
+
+
+
+
+PS3="Elige una opción -> "
+select OPCION in ListarArchivos SubirArchivo DescargarArchivo BorrarArchivo Reproducir Fin ; do
+
+	echo "La opción elegido es: $OPCION"
+	
+	case $OPCION in
+		"ListarArchivos" )
+			LISTADO=`curl -l ftp://192.168.10.123/sd_card/ 2>/dev/null`
+			for LINEA in $LISTADO
+			do
+			echo "$LINEA"
+			done
+			;;
+		"SubirArchivo" )
+			
+			echo 'Indica el archivo para subir: '
+			read subir
+			curl --netrc --upload-file $subir ftp://192.168.10.123/sd_card/
+
+
+			;;
+		"DescargarArchivo" )
+			echo 'Indica el archivo que quieres descargar: '
+			read descarga
+			curl --netrc --remote-name ftp://192.168.10.123/sd_card/$descarga
+			if [ $? == 0 ]; then
+				echo "Archivo descargado con éxito"
+			else
+				echo "Error en la descarga"
+			fi
+			;;			
+		"BorrarArchivo" )
+
+			echo 'Indica el nombre del archivo que desea eliminar: '
+			read eliminar
+			curl -Q "-DELE $eliminar" ftp://192.168.10.123/sd_card/$eliminar > /dev/null
+			;;
+		"Reproducir" )
+			TMP=`mktemp` 
+
+			function selecciona(){
+			echo 'Introduzca el nombre del vídeo a reproducir: '
+			read video
+			FICHERO=$video
+			LONGITUD=`echo -n -e "playing=$FICHERO" | wc -c`
+			echo -n -e '\x7e' > $TMP
+			LONHX=`printf '%x' $LONGITUD` 
+			echo -n -e "\x$LONHX" >> $TMP
+			echo -n -e '\x00\x00\x00\x1b' >> $TMP
+			echo -n -e "playing=$FICHERO" >> $TMP
+			echo -n -e '\x7f' >> $TMP
+
+			nc -N 192.168.10.123 9910 < $TMP >/dev/null
+			}
+			selecciona "$video"
+			;;
+		"Fin" )
+			echo "Terminando..."
+			break
+			;;
+	esac
+done
+
+exit 0
+
+
+
