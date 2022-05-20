@@ -131,3 +131,12 @@ Todo esto se detalla en el entragable de la wiki.
 
 Por último, sera crear el script que usemos para cambiar los vídeos sin necesidad de la aplicación móvil.
 Todo esto se detalla en el entregable de la wiki.
+
+## 3. Uso
+
+
+## 4. Autores
+
+Autores del proyecto: Francisco Ángel Panadero Ruiz y Alejandro Egusquiza Rey, alumnos de 2º de ASIR del IES Gran Capitán (Córdoba)
+
+Supervisor: José Ramón Albendín Ramírez Profesor de Informática del IES Gran Capitán (Córdoba)
