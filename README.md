@@ -104,5 +104,19 @@ Este módulo profesional complementa la formación establecida para el resto de 
 [:arrow_up:](#módulo-proyecto-integrado-del-ies-gran-capitán)
 
 
-# 1. Descripción del proyecto
+## 1. Descripción del proyecto
 Este proyecto tiene como objetivo el uso de un proyector holograma sin necesidad de su aplicación móvil complementaria. Buscaremos las posibles vulnerabilidades, servicios, puertos, protocolos, etc, que tenga el proyector a través de análisis forenses, tanto de las aplicaciones como del dispositivo mismo. Una vez realizado esto y conociendo como se envían los paquetes del cambio de vídeo, crearemos un script donde podamos elegir el vídeo que queramos reproducir sin necesidad de ninguna aplicación.
+
+## 2. Despliegue
+
+El despliegue de este proyecto se llevará a cabo en 4 etapas:
+
+### 2.1 Análisis forense del dispositivo
+
+El primer paso consiste en el descubrimiento de todos los servicios, protocolos, puertos, etc, que tiene el proyector holograma. Para esto usaremos la herramienta 'Nmap', disponible tanto en Windows como en Ubuntu. En Windows nos lo podemos descargar desde el enlace https://nmap.org/download.
+Para Ubuntu sería a través del comando sudo apt install nmap -y.
+
+
+
+
+Para ello usaremos la aplicación Wireshark para ver todo el tráfico de la red. Este programa se puede descargar directamente de Internet a través del enlace https://www.wireshark.org/download.html. 
