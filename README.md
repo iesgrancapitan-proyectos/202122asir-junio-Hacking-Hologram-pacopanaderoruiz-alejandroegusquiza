@@ -137,17 +137,17 @@ Todo esto se detalla en el entregable de la wiki.
 Una vez creado el script que usemos para cambiar los vídeos sin necesidad de la aplicación móvil, su uso será muy sencillo. Este script será ejecutado usando el comando "bash (nombre del script)", en nuestro caso particular será bash scriptproyecto.sh.
 Una vez ejecutado el script, saldrá un menú con varias opciones, la cuál elegirás tú. Cada opción sirve para una cosa diferente:
   
-    - Listar los archivos para saber que vídeos hay en el holograma.
+   - Listar los archivos para saber que vídeos hay en el holograma.
     
-    - Subir archivos, para poder subir cualquier vídeo o foto que quieras en cualquier momento.
+   - Subir archivos, para poder subir cualquier vídeo o foto que quieras en cualquier momento.
     
-    - Descargar archivos, para que te puedes descargar cualquier vídeo que contenga el holograma.
+   - Descargar archivos, para que te puedes descargar cualquier vídeo que contenga el holograma.
     
-    - Borrar archivos, para poder eliminar cualquier vídeo o foto que contenga el holograma.
+   - Borrar archivos, para poder eliminar cualquier vídeo o foto que contenga el holograma.
     
-    - Reproducir, que es la opción principal y objetivo de nuestro proyecto. Podremos seleccionar el vídeo que queramos y reproducirlo al momento.
+   - Reproducir, que es la opción principal y objetivo de nuestro proyecto. Podremos seleccionar el vídeo que queramos y reproducirlo al momento.
     
-    - Fin, se terminará el script.
+   - Fin, se terminará el script.
     
 Para todas las opciones, excepto para la de listar y el fin del script, tendremos que escribir el nombre del archivo para que se lleve a cabo el comando.
 
