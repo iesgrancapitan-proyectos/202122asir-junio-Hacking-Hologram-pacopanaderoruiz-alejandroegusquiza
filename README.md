@@ -136,6 +136,14 @@ Todo esto se detalla en el entregable de la wiki.
 
 Una vez creado el script que usemos para cambiar los vídeos sin necesidad de la aplicación móvil, su uso será muy sencillo. Este script será ejecutado usando el comando "bash (nombre del script)", en nuestro caso particular será bash scriptproyecto.sh.
 Una vez ejecutado el script, saldrá un menú con varias opciones, la cuál elegirás tú. Cada opción sirve para una cosa diferente:
+- Definición o adaptación de la intervención.
+  - Priorización y secuenciación de las acciones.
+  - Planificación de la intervención.
+  - Determinación de recursos.
+  - Planificación de la evaluación.
+  - Diseño de documentación.
+  - Plan de atención al cliente.
+  
     - Listar los archivos para saber que vídeos hay en el holograma.
     
     - Subir archivos, para poder subir cualquier vídeo o foto que quieras en cualquier momento.
