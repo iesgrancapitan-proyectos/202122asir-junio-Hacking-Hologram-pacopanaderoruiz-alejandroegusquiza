@@ -150,6 +150,7 @@ Una vez ejecutado el script, saldrá un menú con varias opciones, la cuál eleg
    - Fin, se terminará el script.
     
 Para todas las opciones, excepto para la de listar y el fin del script, tendremos que escribir el nombre del archivo para que se lleve a cabo el comando.
+Esto será explicado más profundamente en el entregable 
 
 ## 4. Autores
 
