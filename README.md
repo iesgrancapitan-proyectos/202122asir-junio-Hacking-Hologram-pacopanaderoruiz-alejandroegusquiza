@@ -115,7 +115,7 @@ El despliegue de este proyecto se llevará a cabo en 4 etapas:
 
 El primer paso consiste en el descubrimiento de todos los servicios, protocolos, puertos, etc, que tiene el proyector holograma. Para esto usaremos la herramienta 'Nmap', disponible tanto en Windows como en Ubuntu. En Windows nos lo podemos descargar desde el enlace https://nmap.org/download.
 Para Ubuntu sería a través del comando sudo apt install nmap -y.
-Todo esto se detalla en el entregable de la wiki.
+Todo esto se detalla en el entregable de la wiki https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/An%C3%A1lisis-forense-del-dispositivo.
 
 
 ### 2.2 Análisis forense de la aplicación
@@ -125,7 +125,7 @@ En esta etapa descomprimiremos la aplicación móvil para ver su código fuente.
 ### 2.3 Análisis forense de la red
 
 En esta etapa tendremos como objetivo analizar el envío de paquetes que se produce entre el dispositivo y nuestros equipos. Para ello usaremos la aplicación Wireshark para ver todo el tráfico de la red. Este programa se puede descargar directamente de Internet a través del enlace https://www.wireshark.org/download.html. 
-Todo esto se detalla en el entragable de la wiki.
+Todo esto se detalla en el entragable de la wiki https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/An%C3%A1lisis-forense-de-la-red
 
 ### 2.4 Prueba de concepto.
 
