@@ -119,7 +119,7 @@ Todo esto se detalla en el entregable de la wiki _**[aquí](https://github.com/i
 
 ### 2.2 Análisis forense de la aplicación
 
-En esta etapa descomprimiremos la aplicación móvil para ver su código fuente. Esto nos servirá para entender un poco más como funciona la aplicación en sí, aunque no tenga ninguna función más. Todo esto se detalla en el entregable dela wiki _**[aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/An%C3%A1lisis-forense-de-la-red)**_
+En esta etapa descomprimiremos la aplicación móvil para ver su código fuente. Esto nos servirá para entender un poco más como funciona la aplicación en sí, aunque no tenga ninguna función más. Todo esto se detalla en el entregable de la wiki _**[aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/An%C3%A1lisis-forense-de-la-red)**_
 
 ### 2.3 Análisis forense de la red
 
