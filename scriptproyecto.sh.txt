@@ -56,6 +56,7 @@ select OPCION in ListarArchivos SubirArchivo DescargarArchivo BorrarArchivo Repr
 			echo -n -e '\x7f' >> $TMP
 
 			nc -N 192.168.10.123 9910 < $TMP >/dev/null
+			rm $TMP
 			}
 			selecciona "$video"
 			;;
