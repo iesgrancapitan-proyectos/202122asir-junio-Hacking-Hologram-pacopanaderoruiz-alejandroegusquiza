@@ -49,4 +49,4 @@ Esto será explicado más profundamente en el entregable
 
 Autores del proyecto: Francisco Ángel Panadero Ruiz y Alejandro Egusquiza Rey, alumnos de 2º de ASIR del IES Gran Capitán (Córdoba)
 
-Supervisor: José Ramón Albendín Ramírez Profesor de Informática del IES Gran Capitán (Córdoba)
+Supervisor: José Ramón Albendín Ramírez. Profesor de Informática del IES Gran Capitán (Córdoba)
