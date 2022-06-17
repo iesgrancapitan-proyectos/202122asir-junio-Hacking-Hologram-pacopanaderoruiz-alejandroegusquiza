@@ -12,7 +12,7 @@ Para llevar a cabo este proyecto, solo necesitaremos el proyector holograma 3D d
 Para llevar a cabo este proyecto, necesitaremos varios programas, como Nmap para descubrir los puertos y servicios, Wireshark para los análisis forenses, la aplicación para controlar el holograma, un simulador de android para el ordenador (en nuestro caso Genymotion), etc.
 Para usar Genymotion tendremos que registrarnos en su página oficial.
 
-Todas estas herramientas estarán explicadas en la wiki https://github.com/iesgrancapitan-proyectos/202122asir-junio-Hacking-Hologram-pacopanaderoruiz-alejandroegusquiza/wiki#5-recursos
+Todas estas herramientas estarán explicadas en la wiki [aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-Hacking-Hologram-pacopanaderoruiz-alejandroegusquiza/wiki#5-recursos)
 
 ## 3. Uso
 
