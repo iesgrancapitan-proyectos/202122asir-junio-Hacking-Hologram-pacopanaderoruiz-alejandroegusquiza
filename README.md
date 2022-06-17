@@ -3,27 +3,16 @@ Este proyecto tiene como objetivo el uso de un proyector holograma sin necesidad
 
 ## 2. Despliegue
 
-El despliegue de este proyecto se llevará a cabo en 4 etapas:
+### 2.1 Herramientas hardware para el despliegue
 
-### 2.1 Análisis forense del dispositivo
+Para llevar a cabo este proyecto, solo necesitaremos el proyector holograma 3D del aula AtecA y un ordenador donde poder descargarnos las herramientas software necesarias.
 
-El primer paso consiste en el descubrimiento de todos los servicios, protocolos, puertos, etc, que tiene el proyector holograma. Para esto usaremos la herramienta 'Nmap', disponible tanto en Windows como en Ubuntu. En Windows nos lo podemos descargar desde el enlace https://nmap.org/download.
-Para Ubuntu sería a través del comando sudo apt install nmap -y.
-Todo esto se detalla en el entregable de la wiki _**[aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/An%C3%A1lisis-forense-del-dispositivo.)**_
+### 2.2 Herramientas software para el despliegue
 
-### 2.2 Análisis forense de la aplicación
+Para llevar a cabo este proyecto, necesitaremos varios programas, como Nmap para descubrir los puertos y servicios, Wireshark para los análisis forenses, la aplicación para controlar el holograma, un simulador de android para el ordenador (en nuestro caso Genymotion), etc.
+Para usar Genymotion tendremos que registrarnos en su página oficial.
 
-En esta etapa descomprimiremos la aplicación móvil para ver su código fuente. Esto nos servirá para entender un poco más como funciona la aplicación en sí, aunque no tenga ninguna función más. Todo esto se detalla en el entregable de la wiki _**[aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/Análisis-forense-de-la-aplicación)**_
-
-### 2.3 Análisis forense de la red
-
-En esta etapa tendremos como objetivo analizar el envío de paquetes que se produce entre el dispositivo y nuestros equipos. Para ello usaremos la aplicación Wireshark para ver todo el tráfico de la red. Este programa se puede descargar directamente de Internet a través del enlace https://www.wireshark.org/download.html. 
-Todo esto se detalla en el entragable de la wiki _**[aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/An%C3%A1lisis-forense-de-la-red)**_
-
-### 2.4 Prueba de concepto.
-
-Por último, sera crear el script que usemos para cambiar los vídeos sin necesidad de la aplicación móvil.
-Todo esto se detalla en el entregable de la wiki _**[aquí](https://github.com/iesgrancapitan-proyectos/202122asir-junio-nombreproyecto-pacopanaderoruiz/wiki/Prueba-de-concepto)**_
+Todas estas herramientas estarán explicadas en la wiki https://github.com/iesgrancapitan-proyectos/202122asir-junio-Hacking-Hologram-pacopanaderoruiz-alejandroegusquiza/wiki#5-recursos
 
 ## 3. Uso
 
